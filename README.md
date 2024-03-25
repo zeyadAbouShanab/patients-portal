@@ -100,6 +100,18 @@ Finally, to delete the created patient,
 bash delete_patient.sh
 ```
 
+
+## You can Refer:
+
+Flask Documentation: https://flask.palletsprojects.com/en/3.0.x/quickstart/#routing
+
+Flask Cheatsheet: https://s3.us-east-2.amazonaws.com/prettyprinted/flask_cheatsheet.pdf
+
+Swagger Editor (Playground): https://editor.swagger.io/
+
+Python OOP : https://docs.python.org/3/tutorial/classes.html
+
+
 ## Feedback
 
 If you need more clarification, please ping me. I will update the readme file.

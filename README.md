@@ -19,10 +19,17 @@ Patient Portal is a basic Patient management system, where the user (ie. recepti
 
 Follow these steps to install the repository requirements:
 
-1. **Clone the Repository:**
+1. **Fork this Repository**
+Click on button:
+![image](https://github.com/amhkhowaja/patients-portal-for-students/assets/63882136/be42fa88-157b-44b8-a1f4-31a2083dd983)
+
+Then,
+Rename the repo name to *patients-portal* and click Create Fork.
+
+1. **Clone the Repository from your list of repositories:**
 
 ```bash
-git clone https://github.com/amhkhowaja/patient-portal.git
+git clone https://github.com/<your-username>/patients-portal.git
 ```
 
 2. **Navigate to the Repository:**

@@ -91,7 +91,7 @@ Once the Flask server is running, open a new terminal and keep the server runnin
 
 Then,
 ```bash
-cd testing-api-templates
+cd tests
 ```
 
 Then,

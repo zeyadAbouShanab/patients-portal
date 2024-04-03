@@ -60,6 +60,25 @@ source venv/Scripts/activate
 python -m pip install -r requirements.txt
 ```
 
+## Development
+
+You can check the whole repository to check how the workflow works.
+
+Here is the breakdown:
+
+- (`src`) directory contains the main source code
+    1. (`src/patient.py`) will contain the Patient class for the behaviour of patients. The patient object should be used for testing the application. 
+    **Details implementations are in the file.**
+    2. (`src/patient_db.py`) contains the business logic of sqlalchemy database operations. The module can be imported for the database operation.
+    3. (`src/config.py`) contains basic hardcoded configurations. This needs to be imported for the business logic.
+    4. (`src/patient_db_config.py`) is a script which creates the (`patient.db`) file and configure the database schema.
+    5. (`src/api_controller.py`) will contain the class for the HTTP REST API controller server. There are predefined routes, so that when the Client sends the request. the server should validate the data and fetch/store the data to the database.
+    **You need to implement only the methods**
+
+- (`tests`) directory contains the tests for your application.
+
+- (`requirements.txt`) contains the packages needs to be installed for the application to run. you can append a 3pp (3rd Party Package) in this file if you have used any.
+
 ## Testing the final application
 
 In Terminal :

@@ -26,23 +26,23 @@ Click on button:
 Then,
 Rename the repo name to *patients-portal* and click Create Fork.
 
-1. **Clone the Repository from your list of repositories:**
+2. **Clone the Repository from your list of repositories:**
 
 ```bash
 git clone https://github.com/<your-username>/patients-portal.git
 ```
 
-2. **Navigate to the Repository:**
+3. **Navigate to the Repository:**
 ```bash
 cd patient-portal
 ```
 
-3. **Create a virtual environment**
+4. **Create a virtual environment**
 ```bash
 python -m venv venv
 ```
 
-4. **Activate the virtual environment**
+5. **Activate the virtual environment**
 
 *In linux (gitbash)*
 
@@ -55,7 +55,7 @@ source venv/bin/activate
 source venv/Scripts/activate
 ```
 
-5. **Install python packages to run the application**
+6. **Install python packages to run the application**
 ```bash
 python -m pip install -r requirements.txt
 ```

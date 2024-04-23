@@ -5,6 +5,8 @@ from sqlalchemy.sql import operators
 from sqlalchemy import select
 from patient_db_config import PATIENTS_TABLE, ENGINE
 
+from config import DOCTORS, GENDERS
+
 
 class PatientDB:
     """
@@ -99,8 +101,7 @@ class PatientDB:
             conn = ENGINE.connect()
             stmt = PATIENTS_TABLE.select().where(
                 operators.like_op(
-                    PATIENTS_TABLE.c.patient_name,
-                    "%"+patient_name+"%"
+                    PATIENTS_TABLE.c.patient_name, "%" + patient_name + "%"
                 )
             )
             result = conn.execute(stmt)
